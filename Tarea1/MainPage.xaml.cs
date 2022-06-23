@@ -29,7 +29,7 @@ namespace Tarea1
 
             await Navigation.PushAsync(new SecondPage(result));
 
-            //await DisplayAlert("Suma", Convert.ToString(n1 + n2), "OK");
+            
         }
 
         private async void btnsubstraction_Clicked(object sender, EventArgs e)
